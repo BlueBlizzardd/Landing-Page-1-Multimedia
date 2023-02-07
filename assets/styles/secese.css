@@ -1,3 +1,11 @@
 body {
     font: 1.6em 400 Roboto;
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background: rgb(176,11,105);
+    background: linear-gradient(90deg, rgba(176,11,105,1) 0%, rgba(66,10,85,1) 35%, rgba(4,32,105,1) 100%);
+    color: #fff;
+}
