@@ -1,5 +1,5 @@
 body {
-    font: 1.6em 400 Roboto;
+    font: 1.6em Roboto;
 }
 
 body, footer {
@@ -11,16 +11,55 @@ body, footer {
     max-width: 100%;
     height: 380px;
     background-image: url('../img/Mac_Tonight_Oral_History.jpg');
+    background-size: cover;
 }
 
 nav {
     border-top: 5px black;
-    padding: 2em;
-    background-color: midnightblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:midnightblue;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 1.6em 'Brush Script MT', 'Brush Script Std', 'cursive';
+}
+
+nav ul li a:hover {
+    background-color: #111;
 }
 
 .body {
-    margin: 0 3em;
+    text-align: justify;
+    color: white;
+}
+
+.bg-wrapper-1, .bg-wrapper-2 {
+    overflow: hidden;
+    padding: 0.5em 3em;
+}
+
+.bg-wrapper-1 {
+    background-image: linear-gradient(to top, #b00b69, #891f66, #64255b, #43244a, #291e34, #231b30, #1d182c, 
+    #171528, #191739, #1a184b, #1a195e, #191970);
+}
+    
+.bg-wrapper-2 {
+    background-color: #b00b69;
 }
 
 footer {
